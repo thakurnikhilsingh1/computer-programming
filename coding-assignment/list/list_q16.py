@@ -1,4 +1,4 @@
-# Split a List into Even and Odd Numbers
+#  Split a List into Even and Odd Numbers
 def split_even_odd(lst):
     evens = [x for x in lst if x % 2 == 0]
     odds = [x for x in lst if x % 2 != 0]
